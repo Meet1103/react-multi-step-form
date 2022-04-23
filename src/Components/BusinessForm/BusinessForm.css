@@ -1,0 +1,89 @@
+.business-form {
+	display: flex;
+	flex-direction: column;
+	color: #182020d7;
+	width: 70%;
+	height: 65vh;
+	padding-left: 15%;
+	padding-top: 15px;
+}
+
+.business-form-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.business-step-number {
+	color: gray;
+}
+
+.business-form-name {
+	font-size: 1.2rem;
+	padding: 5px;
+}
+
+.business-form-description {
+	text-align: center;
+	width: 50%;
+}
+
+.business-form-heading {
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 10px;
+	font-size: 0.8rem;
+	color: rgb(37, 162, 194);
+}
+
+.business-form-content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	flex-wrap: wrap;
+}
+
+.business-require-fields {
+	color: rgb(37, 162, 194);
+}
+
+.business-inputs {
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid gray;
+	min-width: 20vw;
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+.business-inputs:focus {
+	outline: none;
+	border: 1px solid rgb(37, 162, 194);
+}
+
+.business-form-documents-description {
+	margin-top: 5px;
+	font-size: 0.8rem;
+}
+
+.pdf-upload-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.select-pdf {
+	min-width: 70%;
+	border: 1px solid gray;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.upload-selected-pdf {
+	padding: 5px 20px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background-color: rgb(165, 111, 201);
+}

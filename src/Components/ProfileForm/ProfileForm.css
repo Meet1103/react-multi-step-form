@@ -1,0 +1,49 @@
+.profile-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #182020d7;
+	width: 70%;
+	height: 60vh;
+	padding-left: 15%;
+	padding-top: 25px;
+}
+
+.profile-step-number {
+	color: gray;
+}
+
+.profile-form-name {
+	font-size: 2rem;
+	padding: 5px;
+}
+
+.profile-form-description {
+	text-align: center;
+	width: 50%;
+}
+
+.profile-form-content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+	flex-wrap: wrap;
+}
+
+.profile-require-fields {
+	color: rgb(37, 162, 194);
+}
+
+.profile-inputs {
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid gray;
+	min-width: 20vw;
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.profile-inputs:focus {
+	outline: none;
+	border: 1px solid rgb(37, 162, 194);
+}
