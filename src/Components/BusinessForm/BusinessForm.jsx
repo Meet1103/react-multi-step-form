@@ -49,8 +49,8 @@ const BusinessForm = ({ formData, setFormData }) => {
 					<br />
 					<select
 						className='business-inputs'
+						name='type'
 						placeholder='Select Type of Your Brand'
-						value={formData.brandType}
 						onChange={(e) =>
 							setFormData({
 								...formData,

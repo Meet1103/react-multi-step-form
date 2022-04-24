@@ -56,6 +56,11 @@
 	padding: 5px;
 }
 
+input,
+select {
+	box-sizing: border-box;
+}
+
 .business-inputs:focus {
 	outline: none;
 	border: 1px solid rgb(37, 162, 194);
@@ -86,4 +91,34 @@
 	outline: none;
 	border: none;
 	background-color: rgb(165, 111, 201);
+}
+
+@media only screen and (max-width: 800px) {
+	.business-form {
+		width: 80%;
+		height: 90vh;
+		padding-left: 10%;
+	}
+
+	.business-form-description {
+		width: 90%;
+	}
+
+	.business-form-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.business-form {
+		height: 95vh;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.business-form {
+		height: 100vh;
+	}
 }

@@ -47,3 +47,32 @@
 	outline: none;
 	border: 1px solid rgb(37, 162, 194);
 }
+
+@media only screen and (max-width: 800px) {
+	.profile-form {
+		width: 80%;
+		height: 90vh;
+		padding-left: 10%;
+	}
+
+	.profile-form-description {
+		width: 90%;
+	}
+
+	.profile-form-content {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.profile-form {
+		height: 95vh;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.profile-form {
+		height: 100vh;
+	}
+}

@@ -67,3 +67,19 @@
 	min-width: 80%;
 	max-width: 80%;
 }
+
+@media only screen and (max-width: 600px) {
+	.stepper {
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	.step {
+		font-size: 0.7rem;
+	}
+
+	.app .form-container {
+		min-width: 90%;
+		max-width: 90%;
+	}
+}
